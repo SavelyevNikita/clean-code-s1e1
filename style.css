@@ -72,6 +72,7 @@ button:hover {
     color: #3a3A3a;
 }
 
+
 /* Heading */
 
 h3,
@@ -162,6 +163,7 @@ ul#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
+
 
 /* Edit Task */
 
