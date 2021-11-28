@@ -49,11 +49,12 @@
   margin: 0;
   padding: 0px;
 }
-
+/* сброс стилей */
 li,
 h3 {
   list-style: none;
 }
+/* сброс стилей */
 
 input,
 button {
