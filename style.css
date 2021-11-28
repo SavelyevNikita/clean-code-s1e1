@@ -44,7 +44,8 @@
   display: flex;
 }
 
-ul {
+#completed-tasks,
+#incomplete-tasks  {
   margin: 0;
   padding: 0px;
 }
@@ -76,7 +77,7 @@ button:hover {
 /* Heading */
 
 h3,
-label[for="new-task"] {
+.added-new-task_name {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -104,7 +105,7 @@ label[for="new-task"] {
 
 /* New Task */
 
-label[for="new-task"] {
+.added-new-task_name {
   display: block;
   margin: 0 0 20px;
 }
