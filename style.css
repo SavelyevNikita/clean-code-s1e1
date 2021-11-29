@@ -128,7 +128,7 @@ input.added-new-task__enter
 
 /* Task list */
 
-li {
+.tasks-name__task-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -137,27 +137,26 @@ li {
   align-items: center;
 }
 
-li>* {
+.tasks-name__task-item>* {
   vertical-align: middle;
 }
 
-li> .task-checker {
+.task-checker {
   margin: 0 10px;
 }
 
-li>label {
+.task-name {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
 
-
 .edit-mode {
   width: 226px;
 }
 
-.delete-button img {
+.delete-button .ico {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
@@ -169,7 +168,7 @@ li>label {
 
 /* Completed */
 
-ul#completed-tasks label {
+#completed-tasks .task-name {
   text-decoration: line-through;
   color: #888;
 }
@@ -179,11 +178,11 @@ ul#completed-tasks label {
   display: none;
 }
 
-ul li.editmode .edit-mode {
+.tasks-name__task-item.editmode .edit-mode {
   display: inline-block;
   width: 224px;
 }
 
-ul li.editmode label {
+.tasks-name__task-item.editmode .task-name {
   display: none;
 }
