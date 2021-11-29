@@ -84,7 +84,8 @@ button {
 
 /* Heading */
 
-h3,
+.acting_tasks_name,
+.completed_tasks_name,
 .added-new-task_name {
   color: #333;
   font-weight: 700;
@@ -156,18 +157,15 @@ li>label {
   width: 226px;
 }
 
-/* button.delete img { */
 .delete-button img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-/* button.delete img:hover { */
 .delete-button img:hover {
   transform: rotateZ(0);
 }
-
 
 /* Completed */
 
@@ -176,9 +174,8 @@ ul#completed-tasks label {
   color: #888;
 }
 
-
 /* Edit Task */
-ul li .edit-mode {
+.edit-mode {
   display: none;
 }
 
